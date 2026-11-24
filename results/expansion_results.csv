@@ -1,0 +1,17 @@
+task,model,PR-AUC,recall@100,positives,capture@100,capture@500,spearman (near mining)
+big10,Baseline: distance,0.462,0.593,80.2,,,
+big10,Baseline: momentum (10 km),0.628,0.695,80.2,,,
+big10,Baseline: persistence,0.767,0.8,80.2,,,
+big10,XGBoost (big10),0.735,0.808,80.2,,,
+big10,XGBoost Poisson (volume),0.765,0.819,80.2,,,
+big5,Baseline: distance,0.66,0.544,130.2,,,
+big5,Baseline: momentum (10 km),0.766,0.597,130.2,,,
+big5,Baseline: persistence,0.87,0.668,130.2,,,
+big5,XGBoost (big5),0.855,0.664,130.2,,,
+big5,XGBoost Poisson (volume),0.877,0.679,130.2,,,
+volume,Baseline: distance,,,,0.534,0.992,0.564
+volume,Baseline: momentum (10 km),,,,0.658,0.981,0.541
+volume,Baseline: persistence,,,,0.712,0.992,0.573
+volume,Poisson GLM (volume),,,,0.727,0.99,0.569
+volume,XGBoost (big5),,,,0.708,0.991,0.565
+volume,XGBoost Poisson (volume),,,,0.734,0.992,0.573

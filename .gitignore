@@ -1,0 +1,11 @@
+# Data is downloaded by src/download_data.py
+data/
+# Large prediction files
+results/*predictions*.csv
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+# macOS
+.DS_Store
